@@ -2,7 +2,7 @@
 #include <ESP8266WiFi.h> 
 #include <ThingerWifi.h> 
  
-ThingerWifi thing("junaid", "nm1", "1234567"); 
+ThingerWifi thing("ABCD", "nm1", "1234567"); 
 int pushPin = 12; //  Pin 6 on Node MCU   //the digital pin connected to the PIR sensor's output 
 int ledPin = 4;  // Pin 2 on NodeMCU 
 int val = 0;     // variable for reading the pin status 
@@ -37,3 +37,4 @@ void loop(){
   } 
      
 } 
+
